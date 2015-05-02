@@ -5,5 +5,6 @@ My Standard Template Library
 Templates written by okcd00 (With Runnable Main Function)
 ###MySLT 
 Solutions written by okcd00 (Source Code Behind Solution)
-###CF-As 
+###MyCFA 
 My CSDN_Column Back-up
+For Codeforces Rounds' Problem A's Solutions
