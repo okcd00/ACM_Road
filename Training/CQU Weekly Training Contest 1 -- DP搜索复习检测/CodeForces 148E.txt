@@ -1,0 +1,42 @@
+题意：娇生惯养的公主总爱发脾气，她每一次发脾气都会摔坏一个价值val的瓷器，这些瓷器放在n个架子上，每个架子有ai个花瓶，她每次只摔架子最左或最右的瓶子，求这摔坏m个瓷器总和的最大价值；
+题目抽象：有N行数，每行有ai个数，每次只能从每行数的头尾取数，取后将其删除，然后就会产生新的头尾；
+求从这N行数中取M个数能取得的最大值；
+思路：观察下题目，先从一行入手，可以发现每一行取出来的数一定是连续的，有两种情况：1、取出来的数一段在前面取，一段在后面取；2、取出来的数全部在前面取或者全部在后面取；发现这个规律之后，可以先预处理每行取k个数能取到的最大值( 1<= k <= ai)，即第i行取k个数的最大值，保存在dp[i][k]中；然后对它进行背包，这个和01背包有点不同，就是同一行中只能选择一种取数方案；
+#include <cstdio>
+#include <climits>
+#include <cstring>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+const int N = 110;
+const int V = 10010;
+int sum[N], val, dp[N], bac[V];
+
+int main(){
+	int n, M, i, j, k, l, res = INT_MIN;
+	scanf("%d%d", &n, &M);
+	for(i = 1;i <= n;i++){
+		scanf("%d", &k);
+		for(j = 1;j <= k;j++){
+			scanf("%d", &sum[j]);
+			sum[j] += sum[j - 1];
+		}
+		int tmp = INT_MIN;
+		for(l = 1;l <= k;l++){
+			int fir = 1, last = k - l;
+			for(j = 1;last <= k;j++){
+				tmp = max(tmp, sum[k] - (sum[last] - sum[fir - 1]));
+				fir++, last++;
+			}
+			dp[l] = tmp;
+		}
+		for(int vv = M;vv >= 1;vv--)
+			for(j = 1;j <= k&&vv - j >= 0;j++){
+				bac[vv] = max(bac[vv], bac[vv - j] + dp[j]);
+				res = max(res, bac[vv]);
+		}
+	}
+	cout << res << endl;
+	return 0;
+}
