@@ -1,0 +1,36 @@
+.recent-actions {
+	margin: 1em; font-size: 0.9em;
+}
+.rated-user {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: bold; text-decoration: none !important;
+}
+.user-black {
+	color: black !important; font-weight: normal !important;
+}
+.user-red {
+	color: red !important;
+}
+.user-fire {
+	color: red !important;
+}
+.user-yellow {
+	color: rgb(187, 187, 0) !important;
+}
+.user-violet {
+	color: rgb(170, 0, 170) !important;
+}
+.user-orange {
+	color: rgb(255, 140, 0) !important;
+}
+.user-blue {
+	color: blue !important;
+}
+.user-green {
+	color: green !important;
+}
+.user-gray {
+	color: gray !important;
+}
+.user-admin {
+	color: black !important;
+}

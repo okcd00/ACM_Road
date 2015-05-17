@@ -1,0 +1,63 @@
+div.jGrowl {
+	padding: 10px; z-index: 9999;
+}
+div.ie6 {
+	position: absolute;
+}
+div.top-right.ie6 {
+	right: auto; bottom: auto;
+}
+div.top-left.ie6 {
+	
+}
+div.bottom-right.ie6 {
+	
+}
+div.bottom-left.ie6 {
+	
+}
+div.center.ie6 {
+	width: 100%;
+}
+body > div.jGrowl {
+	position: fixed;
+}
+body > div.top-left.jGrowl {
+	left: 0px; top: 0px;
+}
+body > div.top-right.jGrowl {
+	top: 0px; right: 0px;
+}
+body > div.bottom-left.jGrowl {
+	left: 0px; bottom: 0px;
+}
+body > div.bottom-right.jGrowl {
+	right: 0px; bottom: 0px;
+}
+body > div.center.jGrowl {
+	left: 25%; top: 0px; width: 50%;
+}
+div.center div.jGrowl-notification {
+	margin-right: auto; margin-left: auto;
+}
+div.center div.jGrowl-closer {
+	margin-right: auto; margin-left: auto;
+}
+div.jGrowl div.jGrowl-notification {
+	padding: 10px; width: 235px; text-align: left; color: rgb(255, 255, 255); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; margin-top: 5px; margin-bottom: 5px; display: none; -ms-zoom: 1; opacity: 0.85; background-color: rgb(0, 0, 0); -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+div.jGrowl div.jGrowl-closer {
+	padding: 10px; width: 235px; text-align: left; color: rgb(255, 255, 255); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; margin-top: 5px; margin-bottom: 5px; display: none; -ms-zoom: 1; opacity: 0.85; background-color: rgb(0, 0, 0); -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+div.jGrowl div.jGrowl-notification {
+	min-height: 40px;
+}
+div.jGrowl div.jGrowl-notification div.header {
+	font-size: 10px; font-weight: bold;
+}
+div.jGrowl div.jGrowl-notification div.close {
+	font-size: 12px; font-weight: bold; float: right; cursor: pointer;
+}
+div.jGrowl div.jGrowl-closer {
+	height: 15px; text-align: center; padding-top: 4px; padding-bottom: 4px; font-size: 11px; font-weight: bold; cursor: pointer;
+}

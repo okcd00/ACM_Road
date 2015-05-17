@@ -1,0 +1,18 @@
+.ac_results {
+	padding: 0px; border: 1px solid black; border-image: none; overflow: hidden; z-index: 99999; background-color: white;
+}
+.ac_results ul {
+	list-style: none; margin: 0px; padding: 0px; width: 100%;
+}
+.ac_results li {
+	font: 400 12px/16px Î¢ÈíÑÅºÚ; margin: 0px; padding: 2px 5px; overflow: hidden; font: menu; display: block; cursor: default;
+}
+.ac_loading {
+	background: url("../images/indicator.gif") no-repeat right white;
+}
+.ac_odd {
+	background-color: rgb(238, 238, 238);
+}
+.ac_over {
+	color: white; background-color: rgb(10, 36, 106);
+}

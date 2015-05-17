@@ -1,0 +1,57 @@
+.roundbox {
+	border: 1px solid rgb(185, 185, 185); border-image: none; position: relative;
+}
+.roundbox .caption {
+	margin: 0.2em 0px; color: rgb(59, 89, 152); font-size: 15px; font-weight: bold; position: relative;
+}
+.roundbox .titled {
+	padding: 0px 0px 0.3em 0.5em; border-bottom-color: rgb(185, 185, 185); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.roundbox .caption .top-links {
+	top: 0.3em; right: 0.5em; font-family: arial; font-size: 11px; position: absolute;
+}
+.roundbox .bottom-links {
+	padding: 0.45em; font-family: arial; font-size: 11px; border-top-color: rgb(185, 185, 185); border-top-width: 1px; border-top-style: solid; background-color: rgb(245, 245, 245);
+}
+.roundbox .dark {
+	background-color: rgb(245, 245, 245);
+}
+.roundbox .bottom-links a {
+	margin: 0.1em;
+}
+.roundbox table.rtable {
+	border: currentColor; border-image: none; width: 100%; margin-top: -4px;
+}
+.roundbox .rtable td {
+	border-width: medium medium 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(185, 185, 185) rgb(185, 185, 185); padding: 4px; border-image: none; text-align: center; font-size: 0.9em;
+}
+.roundbox .rtable th {
+	border-width: medium medium 1px 1px; border-style: none none solid solid; border-color: currentColor currentColor rgb(185, 185, 185) rgb(185, 185, 185); padding: 4px; border-image: none; text-align: center; font-size: 0.9em;
+}
+.roundbox .rtable th {
+	padding-top: 7px; font-size: 1em;
+}
+.roundbox .rtable .left {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.roundbox .rtable .bottom {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.roundbox .rtable .corner {
+	width: 10px; height: 10px;
+}
+.roundbox .roundbox-lt {
+	background: url("../images/roundbox/roundbox-lt.png") no-repeat left top; left: -1px; top: -1px; position: absolute;
+}
+.roundbox .roundbox-rt {
+	background: url("../images/roundbox/roundbox-rt.png") no-repeat right top; top: -1px; right: -1px; position: absolute;
+}
+.roundbox .roundbox-lb {
+	background: url("../images/roundbox/roundbox-lb.png") no-repeat left bottom; left: -1px; bottom: -1px; position: absolute;
+}
+.roundbox .roundbox-rb {
+	background: url("../images/roundbox/roundbox-rb.png") no-repeat right bottom; right: -1px; bottom: -1px; position: absolute;
+}
+.rtable th {
+	font-weight: bold;
+}

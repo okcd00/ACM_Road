@@ -1,0 +1,788 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0042)http://codeforces.com/contest/405/problems -->
+<!-- Page: CompleteProblemsViewPage.ftl --><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" ""><HTML><HEAD><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+     
+<META http-equiv="content-type" content="text/html; charset=UTF-8">     
+<META name="X-Csrf-Token" content="605gccegg60785f672g8edg6b62cf34g">     
+<META name="viewport" content="width=device-width, initial-scale=1.0">     
+<META http-equiv="pragma" content="no-cache">     
+<META http-equiv="expires" content="-1">     
+<META http-equiv="profileName" content="c4">     
+<META name="google-site-verification" content="OTd2dN5x4nS4OPknPI9JFg36fKxjqY0i1PSfFPv_J90"> 
+    
+<META content="100001352546622" property="fb:admins">     
+<META content="http://worker.codeforces.ru/static/images/codeforces-vk-square-en.png" 
+property="og:image">     
+<META content="Problems - Codeforces" property="og:title">     
+<META content="Codeforces" property="og:site_name">         
+<META name="cc" content="cs9r485tyerf">     
+<META name="pc" content="7au04ezdzpmr">     
+<META name="verify-reformal" content="f56f99fd7e087fb6ccb48ef2">     
+<TITLE>Problems - Codeforces</TITLE>         
+<META name="description" content="Codeforces. Programming competitions and contests, programming community"> 
+        
+<META name="keywords" content="programming algorithm contest competition informatics olympiads c++ java graphs vkcup"> 
+    
+<META name="robots" content="index, follow">     <LINK href="Problems%20-%20Codeforces_files/font-awesome.min.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/css.css" 
+rel="stylesheet" type="text/css">     <LINK href="http://worker.codeforces.ru/static/favicon.png" 
+rel="shortcut icon" type="image/png">     <!--CombineResourcesFilter-->     
+<LINK href="Problems%20-%20Codeforces_files/prettify.css" rel="stylesheet" type="text/css" 
+charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/clear.css" rel="stylesheet" 
+type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/style.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/ttypography.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/problem-statement.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/second-level-menu.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/roundbox.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/datatable.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/topic.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/table-form.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/jquery.jgrowl.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/facebox.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/jquery.wysiwyg.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/jquery.autocomplete.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/codeforces.datepick.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/colorbox.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/jquery.drafts.css" 
+rel="stylesheet" type="text/css" charset="utf-8">         <LINK href="Problems%20-%20Codeforces_files/sidebar-menu.css" 
+rel="stylesheet" type="text/css" charset="utf-8">         <LINK href="Problems%20-%20Codeforces_files/community.css" 
+rel="stylesheet" type="text/css" charset="utf-8">     
+<SCRIPT src="Problems%20-%20Codeforces_files/prettify.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery-1.8.3.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/sockjs-0.2.1.min.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/vertxbus-1.2.min.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery.easing.min.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery.lavalamp.min.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery.jgrowl.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/facebox.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery.wysiwyg.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/wysiwyg.colorpicker.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/wysiwyg.table.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/wysiwyg.image.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/wysiwyg.link.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery.autocomplete.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery.datepick.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery.ie6blocker.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery.colorbox-min.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery.ba-bbq.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery.drafts.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/codeforces.js" type="text/javascript"></SCRIPT>
+     <!--/CombineResourcesFilter-->     <LINK href="Problems%20-%20Codeforces_files/style(1).css" 
+rel="stylesheet" type="text/css" charset="utf-8">     <LINK href="Problems%20-%20Codeforces_files/style(2).css" 
+rel="stylesheet" type="text/css" charset="utf-8">     
+<SCRIPT src="Problems%20-%20Codeforces_files/share.js" type="text/javascript" charset="utf-8"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/jquery.markitup.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="Problems%20-%20Codeforces_files/set.js" type="text/javascript"></SCRIPT>
+     <!--[if IE]>
+    <style>
+        #sidebar {
+            padding-left: 1em;
+            margin: 1em 1em 1em 0;
+        }
+    </style>
+    <![endif]--> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.16428"></HEAD> 
+<BODY><SPAN class="csrf-token" style="display: none;" data-csrf="605gccegg60785f672g8edg6b62cf34g">&nbsp;</SPAN> <!-- Codeforces JavaScripts. --> 
+<SCRIPT type="text/javascript">
+    if (window.parent.frames.length > 0) {
+        window.stop();
+    }
+</SCRIPT>
+     
+<SCRIPT type="text/javascript">
+        $(document).ready(function() {
+    $.ajaxPrefilter(function(options, originalOptions, xhr) {
+        var csrf = Codeforces.getCsrfToken();
+
+        if (csrf) {
+            var data = originalOptions.data;
+            if (originalOptions.data !== undefined) {
+                if (Object.prototype.toString.call(originalOptions.data) === '[object String]') {
+                    data = $.deparam(originalOptions.data);
+                }
+            } else {
+                data = {};
+            }
+            options.data = $.param($.extend(data, { csrf_token: csrf }));
+        }
+    });
+
+    window.updateTypography = function () {
+        $("div.ttypography code").addClass("tt");
+        $("div.ttypography pre>code").addClass("prettyprint").removeClass("tt");
+        $("div.ttypography table").addClass("bordertable");
+        prettyPrint();
+    }
+
+    $.ajaxSetup({ scriptCharset: "utf-8" ,contentType: "application/x-www-form-urlencoded; charset=UTF-8", headers: {
+        'X-Csrf-Token': Codeforces.getCsrfToken()
+    }});
+
+    window.updateTypography();
+
+    Codeforces.signForms();
+
+    $(".second-level-menu-list").lavaLamp({
+        fx: "backout",
+        speed: 1000
+    });
+
+
+    Codeforces.countdown();
+    $("a[rel='photobox']").colorbox();
+
+        var count = 0;
+
+        function getDelay() {
+            var delay = 0;
+            var last = Codeforces.getCookie("lastOnlineTimeUpdaterInvocation");
+            if (last && last != null) {
+                var period = count < 20 ? 180 * 1000 : 360 * 1000;
+                delay = period - (new Date().getTime() - last);
+                if (delay < 0)
+                    delay = 0;
+            }
+            return delay;
+        }
+
+        window.setInterval(function() {
+            if (getDelay() <= 0 && count < 120) {
+                count++;
+                Codeforces.ping("/data/update-online");
+            }
+        }, 5000);
+
+        var handle = "okcd00";
+        $("a.rated-user:contains(" + handle + "), span.participant:contains(" + handle + ")").each(function() {
+            if ($(this).text() == handle) {
+                var td = $(this).parent();
+                var tr = $(this).parent().parent();
+                if (td.is("td") && tr.is("tr")) {
+                    tr.addClass("highlighted-row");
+                }
+            }
+        });
+
+        });
+    </SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-743380-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = (document.location.protocol == 'https:' ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</SCRIPT>
+ 
+<DIV id="body">
+<DIV style="margin: 0px auto; width: 950px;">
+<DIV id="header" style="position: relative;">
+<DIV style="float: left;"><A href="http://codeforces.com/"><IMG src="Problems%20-%20Codeforces_files/codeforces-logo-with-upper-beta.png"></A> 
+                    
+<DIV style="left: 147px; top: 41px; position: absolute;"><A class="logo-href" 
+href="http://vk.com/">Sponsored by <IMG style="top: 2px; position: relative;" 
+src="Problems%20-%20Codeforces_files/vkontakte-tiny-en.png"></A>                 
+    </DIV></DIV>
+<DIV class="lang">
+<DIV style="text-align: right;"><A href="http://codeforces.com/contest/405/problems?locale=en"><IMG 
+title="In English" alt="In English" 
+src="Problems%20-%20Codeforces_files/gb.png"></A>                 <A href="http://codeforces.com/contest/405/problems?locale=ru"><IMG 
+title="По-русски" alt="По-русски" 
+src="Problems%20-%20Codeforces_files/ru.png"></A>             </DIV></DIV><BR 
+style="clear: both;"></DIV>
+<DIV class="caption" style="text-align: center; font-size: 18px; margin-bottom: 0.5em;">Codeforces 
+Round #238 (Div. 2)</DIV>
+<DIV style="height: 1em; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;"></DIV>
+<DIV style="margin-bottom: 4em; page-break-after: always;"><!-- Frame: ProblemViewFrame.ftl --> 
+<DIV class="problemindexholder" problemindex="A">
+<DIV class="ttypography">
+<DIV class="problem-statement">
+<DIV class="header">
+<DIV class="title">A. Gravity Flip</DIV>
+<DIV class="time-limit">
+<DIV class="property-title">time limit per test</DIV>1 second</DIV>
+<DIV class="memory-limit">
+<DIV class="property-title">memory limit per test</DIV>256 megabytes</DIV>
+<DIV class="input-file">
+<DIV class="property-title">input</DIV>standard input</DIV>
+<DIV class="output-file">
+<DIV class="property-title">output</DIV>standard output</DIV></DIV>
+<DIV>
+<P>Little Chris is bored during his physics lessons (too easy), so he has built 
+a toy box to keep himself occupied. The box is special, since it has the ability 
+to change gravity.</P>
+<P>There are <SPAN class="tex-span"><I>n</I></SPAN> columns of toy cubes in the 
+box arranged in a line. The <SPAN class="tex-span"><I>i</I></SPAN>-th column 
+contains <SPAN class="tex-span"><I>a</I><SUB 
+class="lower-index"><I>i</I></SUB></SPAN> cubes. At first, the gravity in the 
+box is pulling the cubes downwards. When Chris switches the gravity, it begins 
+to pull all the cubes to the right side of the box. The figure shows the initial 
+and final configurations of the cubes in the box: the cubes that have changed 
+their position are highlighted with orange.</P>
+<CENTER><IMG class="tex-graphics" src="Problems%20-%20Codeforces_files/004741f3a73cdc6d78770616f1263cb2ef736eda.png"></CENTER>
+<P>Given the initial configuration of the toy cubes in the box, find the amounts 
+of cubes in each of the <SPAN class="tex-span"><I>n</I></SPAN> columns after the 
+gravity switch!</P></DIV>
+<DIV class="input-specification">
+<DIV class="section-title">Input</DIV>
+<P>The first line of input contains an integer <SPAN 
+class="tex-span"><I>n</I></SPAN> (<SPAN 
+class="tex-span">1 ≤ <I>n</I> ≤ 100</SPAN>), the number of the columns in the 
+box. The next line contains <SPAN class="tex-span"><I>n</I></SPAN> 
+space-separated integer numbers. The <SPAN class="tex-span"><I>i</I></SPAN>-th 
+number <SPAN class="tex-span"><I>a</I><SUB 
+class="lower-index"><I>i</I></SUB></SPAN> (<SPAN 
+class="tex-span">1 ≤ <I>a</I><SUB 
+class="lower-index"><I>i</I></SUB> ≤ 100</SPAN>) denotes the number of cubes in 
+the <SPAN class="tex-span"><I>i</I></SPAN>-th column.</P></DIV>
+<DIV class="output-specification">
+<DIV class="section-title">Output</DIV>
+<P>Output <SPAN class="tex-span"><I>n</I></SPAN> integer numbers separated by 
+spaces, where the <SPAN class="tex-span"><I>i</I></SPAN>-th number is the amount 
+of cubes in the <SPAN class="tex-span"><I>i</I></SPAN>-th column after the 
+gravity switch.</P></DIV>
+<DIV class="sample-tests">
+<DIV class="section-title">Sample test(s)</DIV>
+<DIV class="sample-test">
+<DIV class="input">
+<DIV class="title">Input</DIV>
+<PRE>4<BR>3 2 1 2<BR></PRE></DIV>
+<DIV class="output">
+<DIV class="title">Output</DIV>
+<PRE>1 2 2 3 <BR></PRE></DIV>
+<DIV class="input">
+<DIV class="title">Input</DIV>
+<PRE>3<BR>2 3 8<BR></PRE></DIV>
+<DIV class="output">
+<DIV class="title">Output</DIV>
+<PRE>2 3 8 <BR></PRE></DIV></DIV></DIV>
+<DIV class="note">
+<DIV class="section-title">Note</DIV>
+<P>The first example case is shown on the figure. The top cube of the first 
+column falls to the top of the last column; the top cube of the second column 
+falls to the top of the third column; the middle cube of the first column falls 
+to the top of the second column.</P>
+<P>In the second example case the gravity switch does not change the heights of 
+the columns.</P></DIV></DIV></DIV></DIV>
+<SCRIPT type="text/javascript">
+    $(document).ready(function() {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+    });
+</SCRIPT>
+ <!-- /Frame: ProblemViewFrame.ftl -->        </DIV>
+<DIV style="margin-bottom: 4em; page-break-after: always;"><!-- Frame: ProblemViewFrame.ftl --> 
+<DIV class="problemindexholder" problemindex="B">
+<DIV class="ttypography">
+<DIV class="problem-statement">
+<DIV class="header">
+<DIV class="title">B. Domino Effect</DIV>
+<DIV class="time-limit">
+<DIV class="property-title">time limit per test</DIV>1 second</DIV>
+<DIV class="memory-limit">
+<DIV class="property-title">memory limit per test</DIV>256 megabytes</DIV>
+<DIV class="input-file">
+<DIV class="property-title">input</DIV>standard input</DIV>
+<DIV class="output-file">
+<DIV class="property-title">output</DIV>standard output</DIV></DIV>
+<DIV>
+<P>Little Chris knows there's no fun in playing dominoes, he thinks it's too 
+random and doesn't require skill. Instead, he decided to play <SPAN class="tex-font-style-it">with</SPAN> 
+the dominoes and make a "domino show".</P>
+<P>Chris arranges <SPAN class="tex-span"><I>n</I></SPAN> dominoes in a line, 
+placing each piece vertically upright. In the beginning, he simultaneously 
+pushes some of the dominoes either to the left or to the right. However, 
+somewhere between every two dominoes pushed in the same direction there is at 
+least one domino pushed in the opposite direction.</P>
+<P>After each second, each domino that is falling to the left pushes the 
+adjacent domino on the left. Similarly, the dominoes falling to the right push 
+their adjacent dominoes standing on the right. When a vertical domino has 
+dominoes falling on it from both sides, it stays still due to the balance of the 
+forces. The figure shows one possible example of the process.</P>
+<CENTER><IMG class="tex-graphics" src="Problems%20-%20Codeforces_files/d4d27c890d537ef46432342b4ac09d43b9ab427a.png"></CENTER>
+<P>Given the initial directions Chris has pushed the dominoes, find the number 
+of the dominoes left standing vertically at the end of the process!</P></DIV>
+<DIV class="input-specification">
+<DIV class="section-title">Input</DIV>
+<P>The first line contains a single integer <SPAN 
+class="tex-span"><I>n</I></SPAN> (<SPAN 
+class="tex-span">1 ≤ <I>n</I> ≤ 3000</SPAN>), the number of the dominoes in the 
+line. The next line contains a character string <SPAN 
+class="tex-span"><I>s</I></SPAN> of length <SPAN 
+class="tex-span"><I>n</I></SPAN>. The <SPAN class="tex-span"><I>i</I></SPAN>-th 
+character of the string <SPAN class="tex-span"><I>s</I><SUB 
+class="lower-index"><I>i</I></SUB></SPAN> is equal to </P>
+<UL>
+  <LI> "<SPAN class="tex-font-style-tt">L</SPAN>", if the <SPAN 
+  class="tex-span"><I>i</I></SPAN>-th domino has been pushed to the left; </LI>
+  <LI> "<SPAN class="tex-font-style-tt">R</SPAN>", if the <SPAN 
+  class="tex-span"><I>i</I></SPAN>-th domino has been pushed to the right; </LI>
+  <LI> "<SPAN class="tex-font-style-tt">.</SPAN>", if the <SPAN 
+  class="tex-span"><I>i</I></SPAN>-th domino has not been pushed. </LI></UL>
+<P>It is guaranteed that if <SPAN class="tex-span"><I>s</I><SUB class="lower-index"><I>i</I></SUB> = <I>s</I><SUB 
+class="lower-index"><I>j</I></SUB> = </SPAN>"<SPAN 
+class="tex-font-style-tt">L</SPAN>" and <SPAN 
+class="tex-span"><I>i</I> &lt; <I>j</I></SPAN>, then there exists such <SPAN 
+class="tex-span"><I>k</I></SPAN> that <SPAN 
+class="tex-span"><I>i</I> &lt; <I>k</I> &lt; <I>j</I></SPAN> and <SPAN class="tex-span"><I>s</I><SUB 
+class="lower-index"><I>k</I></SUB> = </SPAN>"<SPAN 
+class="tex-font-style-tt">R</SPAN>"; if <SPAN class="tex-span"><I>s</I><SUB 
+class="lower-index"><I>i</I></SUB> = <I>s</I><SUB 
+class="lower-index"><I>j</I></SUB> = </SPAN>"<SPAN 
+class="tex-font-style-tt">R</SPAN>" and <SPAN 
+class="tex-span"><I>i</I> &lt; <I>j</I></SPAN>, then there exists such <SPAN 
+class="tex-span"><I>k</I></SPAN> that <SPAN 
+class="tex-span"><I>i</I> &lt; <I>k</I> &lt; <I>j</I></SPAN> and <SPAN class="tex-span"><I>s</I><SUB 
+class="lower-index"><I>k</I></SUB> = </SPAN>"<SPAN 
+class="tex-font-style-tt">L</SPAN>".</P></DIV>
+<DIV class="output-specification">
+<DIV class="section-title">Output</DIV>
+<P>Output a single integer, the number of the dominoes that remain vertical at 
+the end of the process.</P></DIV>
+<DIV class="sample-tests">
+<DIV class="section-title">Sample test(s)</DIV>
+<DIV class="sample-test">
+<DIV class="input">
+<DIV class="title">Input</DIV>
+<PRE>14<BR>.L.R...LR..L..<BR></PRE></DIV>
+<DIV class="output">
+<DIV class="title">Output</DIV>
+<PRE>4<BR></PRE></DIV>
+<DIV class="input">
+<DIV class="title">Input</DIV>
+<PRE>5<BR>R....<BR></PRE></DIV>
+<DIV class="output">
+<DIV class="title">Output</DIV>
+<PRE>0<BR></PRE></DIV>
+<DIV class="input">
+<DIV class="title">Input</DIV>
+<PRE>1<BR>.<BR></PRE></DIV>
+<DIV class="output">
+<DIV class="title">Output</DIV>
+<PRE>1<BR></PRE></DIV></DIV></DIV>
+<DIV class="note">
+<DIV class="section-title">Note</DIV>
+<P>The first example case is shown on the figure. The four pieces that remain 
+standing vertically are highlighted with orange.</P>
+<P>In the second example case, all pieces fall down since the first piece 
+topples all the other pieces.</P>
+<P>In the last example case, a single piece has not been pushed in either 
+direction.</P></DIV></DIV></DIV></DIV>
+<SCRIPT type="text/javascript">
+    $(document).ready(function() {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+    });
+</SCRIPT>
+ <!-- /Frame: ProblemViewFrame.ftl -->        </DIV>
+<DIV style="margin-bottom: 4em; page-break-after: always;"><!-- Frame: ProblemViewFrame.ftl --> 
+<DIV class="problemindexholder" problemindex="C">
+<DIV class="ttypography">
+<DIV class="problem-statement">
+<DIV class="header">
+<DIV class="title">C. Unusual Product</DIV>
+<DIV class="time-limit">
+<DIV class="property-title">time limit per test</DIV>1 second</DIV>
+<DIV class="memory-limit">
+<DIV class="property-title">memory limit per test</DIV>256 megabytes</DIV>
+<DIV class="input-file">
+<DIV class="property-title">input</DIV>standard input</DIV>
+<DIV class="output-file">
+<DIV class="property-title">output</DIV>standard output</DIV></DIV>
+<DIV>
+<P>Little Chris is a huge fan of linear algebra. This time he has been given a 
+homework about the <SPAN class="tex-font-style-it">unusual square</SPAN> of a 
+square matrix.</P>
+<P>The <SPAN class="tex-font-style-it">dot product</SPAN> of two integer number 
+vectors <SPAN class="tex-span"><I>x</I></SPAN> and <SPAN 
+class="tex-span"><I>y</I></SPAN> of size <SPAN class="tex-span"><I>n</I></SPAN> 
+is the sum of the products of the corresponding components of the vectors. The 
+<SPAN class="tex-font-style-it">unusual square</SPAN> of an <SPAN class="tex-span"><I>n</I> × <I>n</I></SPAN> 
+square matrix <SPAN class="tex-span"><I>A</I></SPAN> is defined as the sum of 
+<SPAN class="tex-span"><I>n</I></SPAN> dot products. The <SPAN 
+class="tex-span"><I>i</I></SPAN>-th of them is the dot product of the <SPAN 
+class="tex-span"><I>i</I></SPAN>-th row vector and the <SPAN 
+class="tex-span"><I>i</I></SPAN>-th column vector in the matrix <SPAN class="tex-span"><I>A</I></SPAN>.</P>
+<P>Fortunately for Chris, he has to work only in <SPAN 
+class="tex-span"><I>GF</I>(2)</SPAN>! This means that all operations (addition, 
+multiplication) are calculated modulo 2. In fact, the matrix <SPAN class="tex-span"><I>A</I></SPAN> 
+is binary: each element of <SPAN class="tex-span"><I>A</I></SPAN> is either 0 or 
+1. For example, consider the following matrix <SPAN 
+class="tex-span"><I>A</I></SPAN>:</P>
+<CENTER><IMG class="tex-graphics" src="Problems%20-%20Codeforces_files/a1c62819044191bc2767ea3b86bdf9968823cf44.png"></CENTER>
+<P>The unusual square of <SPAN class="tex-span"><I>A</I></SPAN> is equal to 
+<SPAN 
+class="tex-span">(1·1 + 1·0 + 1·1) + (0·1 + 1·1 + 1·0) + (1·1 + 0·1 + 0·0) = 0 + 1 + 1 = 0</SPAN>.</P>
+<P>However, there is much more to the homework. Chris has to process <SPAN 
+class="tex-span"><I>q</I></SPAN> queries; each query can be one of the 
+following: </P>
+<OL>
+  <LI> given a row index <SPAN class="tex-span"><I>i</I></SPAN>, flip all the 
+  values in the <SPAN class="tex-span"><I>i</I></SPAN>-th row in <SPAN class="tex-span"><I>A</I></SPAN>; 
+  </LI>
+  <LI> given a column index <SPAN class="tex-span"><I>i</I></SPAN>, flip all the 
+  values in the <SPAN class="tex-span"><I>i</I></SPAN>-th column in <SPAN class="tex-span"><I>A</I></SPAN>; 
+  </LI>
+  <LI> find the unusual square of <SPAN class="tex-span"><I>A</I></SPAN>. 
+</LI></OL>
+<P>To flip a bit value <SPAN class="tex-span"><I>w</I></SPAN> means to change it 
+to <SPAN class="tex-span">1 - <I>w</I></SPAN>, i.e., 1 changes to 0 and 0 
+changes to 1.</P>
+<P>Given the initial matrix <SPAN class="tex-span"><I>A</I></SPAN>, output the 
+answers for each query of the third type! Can you solve Chris's 
+homework?</P></DIV>
+<DIV class="input-specification">
+<DIV class="section-title">Input</DIV>
+<P>The first line of input contains an integer <SPAN 
+class="tex-span"><I>n</I></SPAN> (<SPAN 
+class="tex-span">1 ≤ <I>n</I> ≤ 1000</SPAN>), the number of rows and the number 
+of columns in the matrix <SPAN class="tex-span"><I>A</I></SPAN>. The next <SPAN 
+class="tex-span"><I>n</I></SPAN> lines describe the matrix: the <SPAN class="tex-span"><I>i</I></SPAN>-th 
+line contains <SPAN class="tex-span"><I>n</I></SPAN> space-separated bits and 
+describes the <SPAN class="tex-span"><I>i</I></SPAN>-th row of <SPAN class="tex-span"><I>A</I></SPAN>. 
+The <SPAN class="tex-span"><I>j</I></SPAN>-th number of the <SPAN class="tex-span"><I>i</I></SPAN>-th 
+line <SPAN class="tex-span"><I>a</I><SUB 
+class="lower-index"><I>ij</I></SUB></SPAN> (<SPAN 
+class="tex-span">0 ≤ <I>a</I><SUB 
+class="lower-index"><I>ij</I></SUB> ≤ 1</SPAN>) is the element on the 
+intersection of the <SPAN class="tex-span"><I>i</I></SPAN>-th row and the <SPAN 
+class="tex-span"><I>j</I></SPAN>-th column of <SPAN 
+class="tex-span"><I>A</I></SPAN>.</P>
+<P>The next line of input contains an integer <SPAN 
+class="tex-span"><I>q</I></SPAN> (<SPAN class="tex-span">1 ≤ <I>q</I> ≤ 10<SUP 
+class="upper-index">6</SUP></SPAN>), the number of queries. Each of the next 
+<SPAN class="tex-span"><I>q</I></SPAN> lines describes a single query, which can 
+be one of the following: </P>
+<UL>
+  <LI> 1 <SPAN class="tex-span"><I>i</I></SPAN> — flip the values of the <SPAN 
+  class="tex-span"><I>i</I></SPAN>-th row; </LI>
+  <LI> 2 <SPAN class="tex-span"><I>i</I></SPAN> — flip the values of the <SPAN 
+  class="tex-span"><I>i</I></SPAN>-th column; </LI>
+  <LI> 3 — output the unusual square of <SPAN class="tex-span"><I>A</I></SPAN>. 
+  </LI></UL>
+<P><SPAN class="tex-font-style-bf">Note</SPAN>: since the size of the input and 
+output could be very large, don't use slow output techniques in your language. 
+For example, do not use input and output streams (cin, cout) in C++.</P></DIV>
+<DIV class="output-specification">
+<DIV class="section-title">Output</DIV>
+<P>Let the number of the 3rd type queries in the input be <SPAN 
+class="tex-span"><I>m</I></SPAN>. Output a single string <SPAN 
+class="tex-span"><I>s</I></SPAN> of length <SPAN 
+class="tex-span"><I>m</I></SPAN>, where the <SPAN 
+class="tex-span"><I>i</I></SPAN>-th symbol of <SPAN 
+class="tex-span"><I>s</I></SPAN> is the value of the unusual square of <SPAN 
+class="tex-span"><I>A</I></SPAN> for the <SPAN 
+class="tex-span"><I>i</I></SPAN>-th query of the 3rd type as it appears in the 
+input.</P></DIV>
+<DIV class="sample-tests">
+<DIV class="section-title">Sample test(s)</DIV>
+<DIV class="sample-test">
+<DIV class="input">
+<DIV class="title">Input</DIV>
+<PRE>3<BR>1 1 1<BR>0 1 1<BR>1 0 0<BR>12<BR>3<BR>2 3<BR>3<BR>2 2<BR>2 2<BR>1 3<BR>3<BR>3<BR>1 2<BR>2 1<BR>1 1<BR>3<BR></PRE></DIV>
+<DIV class="output">
+<DIV class="title">Output</DIV>
+<PRE>01001<BR></PRE></DIV></DIV></DIV></DIV></DIV></DIV>
+<SCRIPT type="text/javascript">
+    $(document).ready(function() {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+    });
+</SCRIPT>
+ <!-- /Frame: ProblemViewFrame.ftl -->        </DIV>
+<DIV style="margin-bottom: 4em; page-break-after: always;"><!-- Frame: ProblemViewFrame.ftl --> 
+<DIV class="problemindexholder" problemindex="D">
+<DIV class="ttypography">
+<DIV class="problem-statement">
+<DIV class="header">
+<DIV class="title">D. Toy Sum</DIV>
+<DIV class="time-limit">
+<DIV class="property-title">time limit per test</DIV>1 second</DIV>
+<DIV class="memory-limit">
+<DIV class="property-title">memory limit per test</DIV>256 megabytes</DIV>
+<DIV class="input-file">
+<DIV class="property-title">input</DIV>standard input</DIV>
+<DIV class="output-file">
+<DIV class="property-title">output</DIV>standard output</DIV></DIV>
+<DIV>
+<P>Little Chris is very keen on his toy blocks. His teacher, however, wants 
+Chris to solve more problems, so he decided to play a trick on Chris.</P>
+<P>There are exactly <SPAN class="tex-span"><I>s</I></SPAN> blocks in Chris's 
+set, each block has a unique number from 1 to <SPAN 
+class="tex-span"><I>s</I></SPAN>. Chris's teacher picks a subset of blocks <SPAN 
+class="tex-span"><I>X</I></SPAN> and keeps it to himself. He will give them back 
+only if Chris can pick such a non-empty subset <SPAN 
+class="tex-span"><I>Y</I></SPAN> from the remaining blocks, that the equality 
+holds: </P>
+<CENTER class="tex-equation"><IMG align="middle" class="tex-formula" src="Problems%20-%20Codeforces_files/37b797b8afff1b78d9cef3602665323f470da659.png"></CENTER> 
+"Are you kidding me?", asks Chris.
+<P>For example, consider a case where <SPAN class="tex-span"><I>s</I> = 8</SPAN> 
+and Chris's teacher took the blocks with numbers 1, 4 and 5. One way for Chris 
+to choose a set is to pick the blocks with numbers 3 and 6, see figure. Then the 
+required sums would be equal: <SPAN 
+class="tex-span">(1 - 1) + (4 - 1) + (5 - 1) = (8 - 3) + (8 - 6) = 7</SPAN>.</P>
+<CENTER><IMG class="tex-graphics" src="Problems%20-%20Codeforces_files/3b96c5294fbcdb16187f5407f96e94dd5181fc03.png"></CENTER>
+<P>However, now Chris has exactly <SPAN class="tex-span"><I>s</I> = 10<SUP 
+class="upper-index">6</SUP></SPAN> blocks. Given the set <SPAN 
+class="tex-span"><I>X</I></SPAN> of blocks his teacher chooses, help Chris to 
+find the required set <SPAN class="tex-span"><I>Y</I></SPAN>!</P></DIV>
+<DIV class="input-specification">
+<DIV class="section-title">Input</DIV>
+<P>The first line of input contains a single integer <SPAN 
+class="tex-span"><I>n</I></SPAN> (<SPAN class="tex-span">1 ≤ <I>n</I> ≤ 5·10<SUP 
+class="upper-index">5</SUP></SPAN>), the number of blocks in the set <SPAN 
+class="tex-span"><I>X</I></SPAN>. The next line contains <SPAN 
+class="tex-span"><I>n</I></SPAN> distinct space-separated integers <SPAN class="tex-span"><I>x</I><SUB 
+class="lower-index">1</SUB></SPAN>, <SPAN class="tex-span"><I>x</I><SUB class="lower-index">2</SUB></SPAN>, 
+<SPAN class="tex-span">...</SPAN>, <SPAN class="tex-span"><I>x</I><SUB class="lower-index"><I>n</I></SUB></SPAN> 
+(<SPAN class="tex-span">1 ≤ <I>x</I><SUB 
+class="lower-index"><I>i</I></SUB> ≤ 10<SUP class="upper-index">6</SUP></SPAN>), 
+the numbers of the blocks in <SPAN class="tex-span"><I>X</I></SPAN>.</P>
+<P><SPAN class="tex-font-style-bf">Note</SPAN>: since the size of the input and 
+output could be very large, don't use slow output techniques in your language. 
+For example, do not use input and output streams (cin, cout) in C++.</P></DIV>
+<DIV class="output-specification">
+<DIV class="section-title">Output</DIV>
+<P>In the first line of output print a single integer <SPAN 
+class="tex-span"><I>m</I></SPAN> (<SPAN class="tex-span">1 ≤ <I>m</I> ≤ 10<SUP 
+class="upper-index">6</SUP> - <I>n</I></SPAN>), the number of blocks in the set 
+<SPAN class="tex-span"><I>Y</I></SPAN>. In the next line output <SPAN class="tex-span"><I>m</I></SPAN> 
+distinct space-separated integers <SPAN class="tex-span"><I>y</I><SUB class="lower-index">1</SUB></SPAN>, 
+<SPAN class="tex-span"><I>y</I><SUB class="lower-index">2</SUB></SPAN>, <SPAN 
+class="tex-span">...</SPAN>, <SPAN class="tex-span"><I>y</I><SUB class="lower-index"><I>m</I></SUB></SPAN> 
+(<SPAN class="tex-span">1 ≤ <I>y</I><SUB 
+class="lower-index"><I>i</I></SUB> ≤ 10<SUP class="upper-index">6</SUP></SPAN>), 
+such that the required equality holds. The sets <SPAN 
+class="tex-span"><I>X</I></SPAN> and <SPAN class="tex-span"><I>Y</I></SPAN> 
+should not intersect, i.e. <SPAN class="tex-span"><I>x</I><SUB class="lower-index"><I>i</I></SUB> ≠ <I>y</I><SUB 
+class="lower-index"><I>j</I></SUB></SPAN> for all <SPAN 
+class="tex-span"><I>i</I></SPAN>, <SPAN class="tex-span"><I>j</I></SPAN> (<SPAN 
+class="tex-span">1 ≤ <I>i</I> ≤ <I>n</I></SPAN>; <SPAN 
+class="tex-span">1 ≤ <I>j</I> ≤ <I>m</I></SPAN>). It is guaranteed that at least 
+one solution always exists. If there are multiple solutions, output any of 
+them.</P></DIV>
+<DIV class="sample-tests">
+<DIV class="section-title">Sample test(s)</DIV>
+<DIV class="sample-test">
+<DIV class="input">
+<DIV class="title">Input</DIV>
+<PRE>3<BR>1 4 5<BR></PRE></DIV>
+<DIV class="output">
+<DIV class="title">Output</DIV>
+<PRE>2<BR>999993 1000000</PRE></DIV>
+<DIV class="input">
+<DIV class="title">Input</DIV>
+<PRE>1<BR>1<BR></PRE></DIV>
+<DIV class="output">
+<DIV class="title">Output</DIV>
+<PRE>1<BR>1000000 <BR></PRE></DIV></DIV></DIV></DIV></DIV></DIV>
+<SCRIPT type="text/javascript">
+    $(document).ready(function() {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+    });
+</SCRIPT>
+ <!-- /Frame: ProblemViewFrame.ftl -->        </DIV>
+<DIV style="margin-bottom: 2em;"><!-- Frame: ProblemViewFrame.ftl --> 
+<DIV class="problemindexholder" problemindex="E">
+<DIV class="ttypography">
+<DIV class="problem-statement">
+<DIV class="header">
+<DIV class="title">E. Graph Cutting</DIV>
+<DIV class="time-limit">
+<DIV class="property-title">time limit per test</DIV>2 seconds</DIV>
+<DIV class="memory-limit">
+<DIV class="property-title">memory limit per test</DIV>256 megabytes</DIV>
+<DIV class="input-file">
+<DIV class="property-title">input</DIV>standard input</DIV>
+<DIV class="output-file">
+<DIV class="property-title">output</DIV>standard output</DIV></DIV>
+<DIV>
+<P>Little Chris is participating in a graph cutting contest. He's a pro. The 
+time has come to test his skills to the fullest.</P>
+<P>Chris is given a simple undirected connected graph with <SPAN class="tex-span"><I>n</I></SPAN> 
+vertices (numbered from 1 to <SPAN class="tex-span"><I>n</I></SPAN>) and <SPAN 
+class="tex-span"><I>m</I></SPAN> edges. The problem is to cut it into 
+edge-distinct paths of length 2. Formally, Chris has to partition all edges of 
+the graph into pairs in such a way that the edges in a single pair are adjacent 
+and each edge must be contained in exactly one pair.</P>
+<P>For example, the figure shows a way Chris can cut a graph. The first sample 
+test contains the description of this graph.</P>
+<CENTER><IMG class="tex-graphics" src="Problems%20-%20Codeforces_files/859c2948021c47ab044e449ada2362bc337e917a.png"></CENTER>
+<P>You are given a chance to compete with Chris. Find a way to cut the given 
+graph or determine that it is impossible!</P></DIV>
+<DIV class="input-specification">
+<DIV class="section-title">Input</DIV>
+<P>The first line of input contains two space-separated integers <SPAN class="tex-span"><I>n</I></SPAN> 
+and <SPAN class="tex-span"><I>m</I></SPAN> (<SPAN 
+class="tex-span">1 ≤ <I>n</I>, <I>m</I> ≤ 10<SUP 
+class="upper-index">5</SUP></SPAN>), the number of vertices and the number of 
+edges in the graph. The next <SPAN class="tex-span"><I>m</I></SPAN> lines 
+contain the description of the graph's edges. The <SPAN 
+class="tex-span"><I>i</I></SPAN>-th line contains two space-separated integers 
+<SPAN class="tex-span"><I>a</I><SUB class="lower-index"><I>i</I></SUB></SPAN> 
+and <SPAN class="tex-span"><I>b</I><SUB 
+class="lower-index"><I>i</I></SUB></SPAN> (<SPAN 
+class="tex-span">1 ≤ <I>a</I><SUB 
+class="lower-index"><I>i</I></SUB>, <I>b</I><SUB 
+class="lower-index"><I>i</I></SUB> ≤ <I>n</I></SPAN>; <SPAN 
+class="tex-span"><I>a</I><SUB class="lower-index"><I>i</I></SUB> ≠ <I>b</I><SUB 
+class="lower-index"><I>i</I></SUB></SPAN>), the numbers of the vertices 
+connected by the <SPAN class="tex-span"><I>i</I></SPAN>-th edge. It is 
+guaranteed that the given graph is simple (without self-loops and multi-edges) 
+and connected.</P>
+<P><SPAN class="tex-font-style-bf">Note</SPAN>: since the size of the input and 
+output could be very large, don't use slow output techniques in your language. 
+For example, do not use input and output streams (cin, cout) in C++.</P></DIV>
+<DIV class="output-specification">
+<DIV class="section-title">Output</DIV>
+<P>If it is possible to cut the given graph into edge-distinct paths of length 
+2, output <IMG align="middle" class="tex-formula" src="Problems%20-%20Codeforces_files/2433a7a8dcdc8aa2ad7a976baa8327b6529431e1.png"> 
+lines. In the <SPAN class="tex-span"><I>i</I></SPAN>-th line print three 
+space-separated integers <SPAN class="tex-span"><I>x</I><SUB 
+class="lower-index"><I>i</I></SUB></SPAN>, <SPAN class="tex-span"><I>y</I><SUB 
+class="lower-index"><I>i</I></SUB></SPAN> and <SPAN 
+class="tex-span"><I>z</I><SUB class="lower-index"><I>i</I></SUB></SPAN>, the 
+description of the <SPAN class="tex-span"><I>i</I></SPAN>-th path. The graph 
+should contain this path, i.e., the graph should contain edges <SPAN class="tex-span">(<I>x</I><SUB 
+class="lower-index"><I>i</I></SUB>, <I>y</I><SUB 
+class="lower-index"><I>i</I></SUB>)</SPAN> and <SPAN 
+class="tex-span">(<I>y</I><SUB class="lower-index"><I>i</I></SUB>, <I>z</I><SUB 
+class="lower-index"><I>i</I></SUB>)</SPAN>. Each edge should appear in exactly 
+one path of length 2. If there are multiple solutions, output any of them.</P>
+<P>If it is impossible to cut the given graph, print <SPAN class="tex-font-style-tt">"No 
+solution"</SPAN> (without quotes).</P></DIV>
+<DIV class="sample-tests">
+<DIV class="section-title">Sample test(s)</DIV>
+<DIV class="sample-test">
+<DIV class="input">
+<DIV class="title">Input</DIV>
+<PRE>8 12<BR>1 2<BR>2 3<BR>3 4<BR>4 1<BR>1 3<BR>2 4<BR>3 5<BR>3 6<BR>5 6<BR>6 7<BR>6 8<BR>7 8<BR></PRE></DIV>
+<DIV class="output">
+<DIV class="title">Output</DIV>
+<PRE>1 2 4<BR>1 3 2<BR>1 4 3<BR>5 3 6<BR>5 6 8<BR>6 7 8</PRE></DIV>
+<DIV class="input">
+<DIV class="title">Input</DIV>
+<PRE>3 3<BR>1 2<BR>2 3<BR>3 1<BR></PRE></DIV>
+<DIV class="output">
+<DIV class="title">Output</DIV>
+<PRE>No solution<BR></PRE></DIV>
+<DIV class="input">
+<DIV class="title">Input</DIV>
+<PRE>3 2<BR>1 2<BR>2 3<BR></PRE></DIV>
+<DIV class="output">
+<DIV class="title">Output</DIV>
+<PRE>1 2 3<BR></PRE></DIV></DIV></DIV></DIV></DIV></DIV>
+<SCRIPT type="text/javascript">
+    $(document).ready(function() {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+    });
+</SCRIPT>
+ <!-- /Frame: ProblemViewFrame.ftl -->        </DIV><BR style="clear: both;">
+<DIV id="footer">
+<DIV><A href="http://codeforces.com/">Codeforces</A> (c) Copyright 2010-2014 
+Mike Mirzayanov</DIV>
+<DIV>The only programming contests Web 2.0 
+platform</DIV></DIV></DIV></DIV></BODY></HTML><!-- /Page: CompleteProblemsViewPage.ftl -->

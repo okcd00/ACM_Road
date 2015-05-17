@@ -1,0 +1,54 @@
+.datatable td {
+	width: auto !important; overflow: auto; max-width: 20em !important;
+}
+.datatable {
+	width: 100%; position: relative;
+}
+.datatable table {
+	width: 100%;
+}
+.datatable td {
+	padding: 0.5em; text-align: center; overflow: hidden; font-size: 0.9em; border-top-color: rgb(225, 225, 225); border-right-color: rgb(225, 225, 225); border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid;
+}
+.datatable th {
+	padding: 0.5em; text-align: center; overflow: hidden; font-size: 0.9em; border-top-color: rgb(225, 225, 225); border-right-color: rgb(225, 225, 225); border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid;
+}
+.datatable th {
+	font-weight: bold;
+}
+.datatable .left {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.datatable .top {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.datatable .bottom {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.datatable .right {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+.datatable .dark {
+	background-color: rgb(248, 248, 248);
+}
+.datatable .lt {
+	background: url("../images/datatable/datatable-corner-lt.png") no-repeat left top; left: 0px; top: 0px; width: 6px; height: 6px; position: absolute;
+}
+.datatable .rt {
+	background: url("../images/datatable/datatable-corner-rt.png") no-repeat right top; top: 0px; width: 6px; height: 6px; right: 0px; position: absolute;
+}
+.datatable .lb {
+	background: url("../images/datatable/datatable-corner-lb.png") no-repeat left bottom; left: 0px; width: 4px; height: 4px; bottom: 0px; position: absolute;
+}
+.datatable .rb {
+	background: url("../images/datatable/datatable-corner-rb.png") no-repeat right bottom; width: 4px; height: 4px; right: 0px; bottom: 0px; position: absolute;
+}
+.datatable .ilt {
+	background: url("../images/datatable/datatable-inner-corner-lt.png") no-repeat left top; left: 0px; top: 0px; width: 6px; height: 6px; position: absolute;
+}
+.datatable .irt {
+	background: url("../images/datatable/datatable-inner-corner-rt.png") no-repeat right top; top: 0px; width: 6px; height: 6px; right: 0px; position: absolute;
+}
+.datatable .filter input {
+	background: url("../images/icons/magnifier-medium.png") no-repeat 2px 2px white; padding-left: 20px;
+}

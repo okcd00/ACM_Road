@@ -1,0 +1,207 @@
+body {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+pre {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+blockquote {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+fieldset {
+	border: 0px currentColor; border-image: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+address {
+	font-style: normal; font-weight: normal;
+}
+caption {
+	font-style: normal; font-weight: normal;
+}
+cite {
+	font-style: normal; font-weight: normal;
+}
+code {
+	font-style: normal; font-weight: normal;
+}
+dfn {
+	font-style: normal; font-weight: normal;
+}
+em {
+	font-style: normal; font-weight: normal;
+}
+strong {
+	font-style: normal; font-weight: normal;
+}
+th {
+	font-style: normal; font-weight: normal;
+}
+var {
+	font-style: normal; font-weight: normal;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+caption {
+	text-align: left;
+}
+th {
+	text-align: left;
+}
+h1 {
+	font-size: 100%; font-weight: normal;
+}
+h2 {
+	font-size: 100%; font-weight: normal;
+}
+h3 {
+	font-size: 100%; font-weight: normal;
+}
+h4 {
+	font-size: 100%; font-weight: normal;
+}
+h5 {
+	font-size: 100%; font-weight: normal;
+}
+h6 {
+	font-size: 100%; font-weight: normal;
+}
+q::before {
+	content: "";
+}
+q::after {
+	content: "";
+}
+abbr {
+	border: 0px currentColor; border-image: none;
+}
+acronym {
+	border: 0px currentColor; border-image: none;
+}
+textarea {
+	margin: 0px; padding: 2px;
+}
+a:link {
+	color: rgb(0, 0, 204);
+}
+body {
+	background: rgb(255, 255, 255); margin: 3px 8px;
+}
+body {
+	font-family: verdana,arial,sans-serif;
+}
+select {
+	font-family: verdana,arial,sans-serif;
+}
+input {
+	font-family: verdana,arial,sans-serif;
+}
+body {
+	font-size: 87.5%;
+}
+h1 {
+	font-size: 1.8em; font-weight: bold;
+}
+h2 {
+	font-size: 1.6em; font-weight: bold;
+}
+h3 {
+	font-size: 1.4em; font-weight: bold;
+}
+h4 {
+	font-size: 1.2em; font-weight: bold;
+}
+h5 {
+	font-size: 1em; font-weight: bold;
+}
+td td {
+	font-size: 100%;
+}
+th th {
+	font-size: 100%;
+}
+th td {
+	font-size: 100%;
+}
+td th {
+	font-size: 100%;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+pre {
+	font-size: 110%;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+input {
+	padding-right: 1px; padding-left: 1px;
+}

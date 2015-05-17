@@ -1,0 +1,378 @@
+body {
+	
+}
+body.iframed {
+	overflow: hidden;
+}
+#body {
+	margin: 0px auto; padding-top: 0.75em; min-width: 920px; max-width: 1200px;
+}
+.comment-vote-direction-1 {
+	background-color: indianred;
+}
+.comment-vote-direction--1 {
+	background-color: dodgerblue;
+}
+.comment-table {
+	border: 1px dashed white; border-image: none;
+}
+.comment-no-indent {
+	display: none;
+}
+.comment-indent {
+	width: 4em; text-align: left; padding-top: 1.75em; float: left; display: block !important;
+}
+.comment-indent span {
+	color: rgb(170, 204, 238); font-size: 12px; font-weight: bold;
+}
+.highlight {
+	border: 1px solid rgb(255, 195, 0); border-image: none; background-color: rgb(255, 247, 219) !important;
+}
+.highlight-blue {
+	border: 1px solid rgb(127, 157, 220); border-image: none; background-color: rgb(221, 238, 255) !important;
+}
+.button {
+	padding: 0px 1em !important; height: 1.65em !important;
+}
+a.not-decorated {
+	color: black; text-decoration: none !important;
+}
+#header {
+	margin: 0px 1em; height: 5em;
+}
+.login-panel {
+	float: right;
+}
+.lang-chooser {
+	float: right;
+}
+.logo-href {
+	color: black !important; font-size: 10px; font-weight: bold; text-decoration: none;
+}
+#sidebar {
+	margin: 1em 1em 1em -22em; width: 20em; padding-left: 4em; float: right; display: inline;
+}
+.sidebox {
+	margin-bottom: 1.5em;
+}
+#content {
+	margin: 1em; padding-top: 1em; min-height: 20em;
+}
+.content-with-sidebar {
+	margin-right: 22em !important;
+}
+.post {
+	background: rgb(196, 160, 0); margin: 1em 0px; padding: 1em;
+}
+#footer {
+	height: 4em; text-align: center; padding-top: 1em; clear: both; font-size: 1em; margin-top: 1em; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.search {
+	background: url("../images/search-16x16.png") no-repeat 2px 2px rgb(244, 244, 244); margin: 4px 1em 0px 0px; padding: 1px 1px 1px 20px; border: 1px solid rgb(212, 212, 212); border-image: none; width: 9em; height: 16px; color: rgb(102, 102, 102); line-height: 16px; font-size: 10px; float: right;
+}
+.menu-box {
+	margin: 0px 1em; height: 2.5em; line-height: 2.5em; padding-top: 0.5em;
+}
+.menu-list-container {
+	margin: 0px;
+}
+.menu-list {
+	margin-left: 1.5em;
+}
+.menu-list li {
+	list-style: none; padding: 0px 0px 1px; top: 5px; font-family: "Cuprum", sans-serif !important; margin-right: 1.5em; float: left; position: relative;
+}
+.menu-list li a {
+	margin: 0px; height: 20px; text-align: center; color: rgb(0, 0, 0); text-transform: uppercase; line-height: 22px; letter-spacing: 0px; overflow: hidden; font-size: 16px; font-weight: normal; text-decoration: none; float: left; display: block;
+}
+.menu-list li .icon {
+	top: 3px; position: relative;
+}
+.menu-list li.current {
+	border-bottom-color: rgb(59, 89, 152); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.menu-list li.item-highlighted * {
+	color: red;
+}
+.menu-list li a:hover {
+	border: currentColor; border-image: none;
+}
+.menu-list li a:active {
+	border: currentColor; border-image: none;
+}
+.menu-list li a:visited {
+	border: currentColor; border-image: none;
+}
+.live {
+	margin: 1em;
+}
+.live li {
+	margin-bottom: 0.5em;
+}
+.live li.last {
+	margin-bottom: 0px;
+}
+.live li .blog {
+	color: rgb(0, 0, 0);
+}
+.live li .comments {
+	color: rgb(255, 0, 0);
+}
+.notice {
+	color: rgb(136, 136, 136) !important;
+}
+.error {
+	color: red;
+}
+.warning {
+	color: rgb(255, 140, 0);
+}
+.shiftUp {
+	top: -5px; position: relative;
+}
+.caption-edit-link {
+	font-size: 0.8em; float: right;
+}
+.filter-box {
+	margin: 0.25em 0px; height: 2em; position: relative;
+}
+.filter-box input {
+	background: url("../images/filter-16x16.png") no-repeat 2px 2px rgb(244, 244, 244); padding: 1px 1px 1px 18px; border: 1px solid rgb(212, 212, 212); border-image: none; height: 1.2em; right: 0px; line-height: 1em; margin-top: 4px; margin-bottom: 2px; position: absolute;
+}
+.action-link img {
+	vertical-align: middle;
+}
+.avatar {
+	text-align: center; font-size: smaller;
+}
+.comment {
+	opacity: 1;
+}
+.comments {
+	margin-top: 2em;
+}
+.comments .title {
+	color: rgb(59, 89, 152) !important; font-size: 1.8em; margin-bottom: 1em;
+}
+.comment-table {
+	margin: 0.25em; width: 95%;
+}
+.comment-table td.left {
+	padding: 0.5em; width: 100px; text-align: center;
+}
+.comment-table td.right {
+	padding: 0.5em; text-align: left; vertical-align: top;
+}
+.comment-table .reply {
+	top: -1em; position: relative;
+}
+.comment-table .reply .arrow {
+	font-size: 15px; text-decoration: none;
+}
+.comment-table .reply a {
+	color: rgb(185, 185, 185) !important;
+}
+.comment-table .reply:hover a {
+	color: inherit;
+}
+.comment-table .info {
+	color: rgb(185, 185, 185); font-size: 0.8em; margin-bottom: 0.5em; position: relative;
+}
+.comment-table .info .item {
+	margin-right: 0.5em;
+}
+.comment-table .info .item a {
+	color: rgb(185, 185, 185) !important;
+}
+.comment-children li {
+	margin: 0.25em 0px 0.25em 4em;
+}
+.comment-content {
+	line-height: 20px; font-size: 13px;
+}
+.comment-content .moveup .ttypography {
+	bottom: 0.8em !important; position: relative !important;
+}
+.comment-bad {
+	opacity: 0.3 !important;
+}
+.comment-too-bad {
+	opacity: 0.3 !important;
+}
+.comment-bad:hover {
+	opacity: 1 !important;
+}
+.comment-too-bad:hover {
+	opacity: 1 !important;
+}
+.comment-content div.ttypography {
+	bottom: 2px; line-height: 20px; font-size: 13px; position: relative;
+}
+.comment-table div.ttypography {
+	bottom: 2px; line-height: 20px; font-size: 13px; position: relative;
+}
+.centered-message {
+	margin: 5em auto; text-align: center; font-size: 1.5em;
+}
+.welldone {
+	color: green; font-weight: bold;
+}
+.countdown {
+	color: rgb(119, 119, 119);
+}
+.highlighted-row td {
+	background-color: rgb(221, 238, 255) !important;
+}
+.highlighted-row th {
+	background-color: rgb(221, 238, 255) !important;
+}
+.file {
+	margin: 0.5em; font-size: 11px;
+}
+.file .name {
+	font-weight: bold;
+}
+.file .text {
+	background-color: rgb(221, 221, 221);
+}
+.infoline {
+	margin: 0.5em;
+}
+.from-renderer {
+	display: inline !important;
+}
+.from-renderer ul {
+	margin: 0.5em 0px 0.5em 2em; padding-left: 2em; list-style-type: disc; list-style-position: outside;
+}
+ul.list {
+	margin: 0.5em 0px 0.5em 2em; padding-left: 2em; list-style-type: disc; list-style-position: outside;
+}
+.from-renderer ol {
+	margin: 0.5em 0px 0.5em 2em; padding-left: 2em; list-style-type: decimal; list-style-position: outside;
+}
+ol.list {
+	margin: 0.5em 0px 0.5em 2em; padding-left: 2em; list-style-type: decimal; list-style-position: outside;
+}
+.from-renderer li {
+	margin: 0.5em 0px; padding: 0px 0px 0px 1em; list-style-position: outside;
+}
+.list li {
+	margin: 0.5em 0px; padding: 0px 0px 0px 1em; list-style-position: outside;
+}
+.from-renderer p {
+	margin: 1.2em 0px;
+}
+#edit_area_toggle_checkbox_label {
+	font-size: 12px; margin-left: 1em;
+}
+.red-link {
+	padding: 0.2em; color: white !important; font-weight: bold; background-color: rgb(204, 0, 0);
+}
+.contest-state-phase {
+	color: rgb(59, 89, 152); font-size: 15px; font-weight: bold;
+}
+.contest-state-regular {
+	font-size: 1.4em;
+}
+img.standings-flag {
+	top: 3px; margin-right: 0.35em; position: relative;
+}
+.confirm-proto {
+	margin: 1em;
+}
+.confirm-proto .text {
+	padding-bottom: 1em;
+}
+.confirm-proto input {
+	margin: 1em; padding: 0.25em 0.5em; width: 6em;
+}
+.small {
+	font-size: 10px !important;
+}
+.small * {
+	font-size: 10px !important;
+}
+.smaller {
+	font-size: 11px !important;
+}
+.smaller * {
+	font-size: 11px !important;
+}
+.friendStar {
+	left: 0.25em; top: 0.25em; position: relative;
+}
+.caption {
+	margin: 0px 0px 1em; color: rgb(59, 89, 152); font-size: 15px; font-weight: bold;
+}
+.test-for-popup {
+	margin: 1.5em 0px 0px;
+}
+.test-for-popup .test-header {
+	font-size: 11px; font-weight: bold;
+}
+.test-for-popup pre {
+	border: 1px solid rgb(170, 170, 170); border-image: none; font-size: 11px; background-color: rgb(238, 238, 238);
+}
+.pagination {
+	margin: 0px auto;
+}
+.pagination .inactive {
+	color: rgb(204, 204, 204); font-size: 2em;
+}
+.pagination a {
+	color: black; text-decoration: none !important;
+}
+.pagination ul li {
+	display: inline;
+}
+.pagination .page-index {
+	padding: 0.25em;
+}
+.pagination span.active {
+	border: 1px solid rgb(221, 221, 221); border-image: none; font-weight: bold; background-color: rgb(238, 238, 238);
+}
+.pagination .arrow {
+	color: black; font-size: 2em;
+}
+#datepick-div {
+	z-index: 100000 !important;
+}
+div.alert-info {
+	border-color: rgb(188, 232, 241); color: rgb(58, 135, 173); background-color: rgb(217, 237, 247);
+}
+.alert {
+	padding: 8px 35px 8px 14px; border-radius: 4px; border: 1px solid rgb(251, 238, 213); border-image: none; color: rgb(51, 51, 51); line-height: 20px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; margin-bottom: 20px; text-shadow: 0px 1px 0px rgba(255,255,255,0.5); background-color: rgb(252, 248, 227); -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+@media screen and (max-width:1024px)
+{
+.menu-list-container .search {
+	display: none;
+}
+.menu-list li a {
+	font-size: 14px;
+}
+}
+span.participant {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.problems .accepted-problem td.act {
+	background-color: rgb(212, 237, 201) !important;
+}
+.problems .accepted-problem td.id {
+	border-left-color: rgb(212, 237, 201) !important; border-left-width: 6px !important; border-left-style: solid !important;
+}
+.problems .rejected-problem td.act {
+	background-color: rgb(255, 227, 227) !important;
+}
+.problems .rejected-problem td.id {
+	border-left-color: rgb(255, 227, 227) !important; border-left-width: 6px !important; border-left-style: solid !important;
+}
+.problems .submitted-verdict-problem td.act {
+	background-color: rgb(221, 238, 255) !important;
+}
+.problems .submitted-verdict-problem td.id {
+	border-left-color: rgb(221, 238, 255) !important; border-left-width: 6px !important; border-left-style: solid !important;
+}
+.problems td.act .act-item {
+	margin: 0px 0.35em;
+}

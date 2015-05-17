@@ -1,0 +1,57 @@
+.topic {
+	margin: 1em 0px;
+}
+.topic .title * {
+	color: rgb(59, 89, 152) !important; font-size: 24px !important;
+}
+.topic-userpic {
+	padding: 0.5em; border: 1px solid rgb(185, 185, 185); border-image: none; text-align: center; float: right; display: inline;
+}
+.topic .title a {
+	color: rgb(59, 89, 152) !important; text-decoration: none;
+}
+.topic .title a:hover {
+	color: rgb(59, 89, 152) !important; text-decoration: none;
+}
+.topic .title a:visited {
+	color: rgb(59, 89, 152) !important; text-decoration: none;
+}
+.topic .content {
+	margin: 1em 0px; line-height: 20px; padding-left: 1em; font-size: 12px; border-left-color: rgb(185, 185, 185); border-left-width: 4px; border-left-style: solid;
+}
+.topic .content p {
+	margin: 1em 0px;
+}
+.topic .right-meta {
+	float: right;
+}
+.topic .left-meta {
+	float: left;
+}
+.topic .meta {
+	height: 2.5em; margin-top: 1em;
+}
+.topic .meta ul {
+	margin: 0.75em; font-size: 0.9em;
+}
+.topic .meta .right-meta ul li {
+	margin: 0px 1em; float: left;
+}
+.topic .meta .left-meta ul li {
+	margin: 0px 0.5em; float: left;
+}
+.topic .meta .left-meta ul li img {
+	opacity: 0.5;
+}
+.topic-edit .title {
+	color: rgb(59, 89, 152); font-size: 1.8em;
+}
+.topic-edit .locale {
+	margin: 0.5em 0px; font-size: 1.2em; position: relative;
+}
+.topic-edit .switch-lang {
+	font-size: 1.2em; position: relative;
+}
+.topic-edit .topic-edit-form {
+	margin: 0px auto;
+}
