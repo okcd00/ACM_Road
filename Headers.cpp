@@ -16,7 +16,7 @@ using namespace std;
 bool cmp(const int a, const int b)
 {
 	return a > b;
-}
+}//int cmp( const void *a , const void *b )  { return *(type* a) - *(type* b) > 0 ? 1:-1; }
 
 int main()
 {
