@@ -84,7 +84,7 @@ struct Trie	//AcMachine Trie Tree of Kuangbin's Blog
         for(int i=0;i<L;i++)
         {
             printf("id = %3d,fail = %3d,end = %3d,\nchi = [",i,fail[i],end[i]);
-            for(int j = 0;j < 26;j++) printf("%2d",next[i][j]);
+            for(int j = 0;j < bk;j++) printf("%2d",next[i][j]);
             printf("]\n");
         }
     }
