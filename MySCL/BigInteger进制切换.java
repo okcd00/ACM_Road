@@ -1,7 +1,7 @@
 import java.io.*;  
 import java.math.*;  
 import java.util.*;  
-//java POJ1131 Octal Fractions  
+//java POJ2305 Basic remains  
 public class Main	//Change the name as Main.java or Main.class
 {  
     public static void main(String[] args)
