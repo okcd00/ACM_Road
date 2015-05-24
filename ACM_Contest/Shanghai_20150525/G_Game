@@ -1,0 +1,78 @@
+#include<queue>
+#include<cstdio>
+#include<vector>
+#include<string>
+#include<cstring>
+#include<cstdlib>
+#include<iostream>
+#include<algorithm>
+using namespace std;
+typedef long long ll;
+const int N=300050;
+int n,m,k,pnt[N],head[N],nxt[N],fa[N],qz[N],cnt=0;
+bool vis[N];
+struct P
+{
+	int u,w;
+	P(){}
+	P(int _u, int _w){u=_u,w=_w;}
+	friend bool operator<(const P &a, const P &b){return a.w<b.w;}
+};
+priority_queue<P> pq;
+void addedge(int u, int v)	{pnt[cnt]=v; nxt[cnt]=head[u]; head[u]=cnt++;}
+void dfs(int u,int f,int w)
+{
+	bool flag=true;
+	fa[u]=f;
+	for(int i=head[u];i!=-1;i=nxt[i])
+	{
+		int v=pnt[i];
+		if(v==f) continue;
+		flag=false;
+		dfs(v,u,w+qz[v]);
+	}
+	if(flag) pq.push(P(u,w));
+}
+int main()
+{
+	int T;
+	scanf("%d",&T);
+	rep(z,1,T)
+	{
+		scanf("%d%d",&n,&k);
+		memset(head,-1,sizeof head);
+		cnt=0;
+		rep(i,1,n) scanf("%d",&qz[i]);
+		rep(i,1,n-1)
+		{
+			int u,v;
+			scanf("%d%d",&u,&v);
+			addedge(u,v);
+			addedge(v,u);
+		}
+		dfs(1,1,qz[1]);
+		ll ans=0;
+		priority_queue<int,vector<int>,greater<int> > p;
+		while(!pq.empty())
+		{
+			P cur=pq.top();
+			pq.pop();
+			int tmp=0, u=cur.u;
+			while(!vis[u])
+			{
+				tmp+=qz[u];
+				vis[u]=true;
+				u=fa[u];
+			}
+			p.push(tmp);
+		}
+		rep(i,1,k)
+		{
+			if(p.empty()) break;
+			ans+=p.top();
+			p.pop();
+		}
+		printf("%lld\n",ans);
+	}
+	return 0;
+}
