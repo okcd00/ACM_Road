@@ -76,14 +76,14 @@ void dp_entry(const int u, const int p){
 						y_sec=v;
 					}
 				}
-				if(!~x_fir && !~y_fir){
+				if(~x_fir && ~y_fir){
 					if(x_fir!=y_fir){
 						updmin(f[u][1][1][0], buf+f[x_fir][1][1][0]-f[x_fir][1][0][0]+f[y_fir][1][0][1]-f[y_fir][1][0][0]);
 					}else{
-						if(!~x_sec){
+						if(~x_sec){
 							updmin(f[u][1][1][0], buf+f[x_sec][1][1][0]-f[x_sec][1][0][0]+f[y_fir][1][0][1]-f[y_fir][1][0][0]);
 						}
-						if(!~y_sec){
+						if(~y_sec){
 							updmin(f[u][1][1][0], buf+f[x_fir][1][1][0]-f[x_fir][1][0][0]+f[y_sec][1][0][1]-f[y_sec][1][0][0]);
 						}
 					}
