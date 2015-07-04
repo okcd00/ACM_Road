@@ -4,7 +4,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
+//http://blog.csdn.net/okcd00/article/details/22693127
 int score[1010];
 string name[1010];
 map<string, int> p1,p2;

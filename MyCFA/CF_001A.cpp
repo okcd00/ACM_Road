@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 typedef long long ll;
-
+//http://blog.csdn.net/okcd00/article/details/22691439
 int main()
 {
 	ll m, n, a;

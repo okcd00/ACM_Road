@@ -1,7 +1,7 @@
 #include<iostream>    
 #include<algorithm>
 using namespace std;
-
+//http://blog.csdn.net/okcd00/article/details/22693717
 int main()    
 {  
     int w;  cin>>w;

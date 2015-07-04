@@ -2,7 +2,8 @@
 #include <cstdio>  
 #include <algorithm>  
 using namespace std;  
-  
+//http://blog.csdn.net/okcd00/article/details/23768185
+
 int main()  
 {  
     int n,p1,p2,p3,t1,t2 ;  

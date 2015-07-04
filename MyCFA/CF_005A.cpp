@@ -3,6 +3,8 @@
 #include <iostream>  
 #include <algorithm>  
 using namespace std;  
+//http://blog.csdn.net/okcd00/article/details/22694671
+
 //这道题麻烦在理解题意上，其实他的意思是，总共发送了多少字节，每个人说话的时候这句话要发给在场所有的人（包括他自己）   
 //难点大概除了理解题意，还有一个难点就似乎在读入上   
 int main()  

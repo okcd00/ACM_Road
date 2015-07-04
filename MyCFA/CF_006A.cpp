@@ -2,7 +2,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
+//http://blog.csdn.net/okcd00/article/details/22694925
 int main()
 {
 	int a[4];

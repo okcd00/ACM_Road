@@ -3,7 +3,7 @@
 #include <algorithm>  
 using namespace std;  
 typedef pair<char,int> pl;  
-
+//http://blog.csdn.net/okcd00/article/details/22693405
 #define max(a,b) a>b?a:b  
 #define min(a,b) a<b?a:b  
   

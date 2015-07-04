@@ -3,7 +3,7 @@
 #include <cstring>   
 #include <iostream>  
 using namespace std;  
-  
+//http://blog.csdn.net/okcd00/article/details/23301555
 int main()  
 {  
     string s,a,b;  

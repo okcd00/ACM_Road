@@ -1,6 +1,7 @@
 #include <iostream>  
 #include <cstring>  
 using namespace std;  
+//http://blog.csdn.net/okcd00/article/details/22695739
 int main()  
 {  
     char s[8][8];  
