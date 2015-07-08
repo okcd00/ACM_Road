@@ -2,7 +2,8 @@
 #include <iostream>  
 #include <algorithm>  
 using namespace std;  
-  
+//http://blog.csdn.net/okcd00/article/details/24535363
+
 int gcd(int a, int b)  
 {  
     if(a%b==0)return b;  
