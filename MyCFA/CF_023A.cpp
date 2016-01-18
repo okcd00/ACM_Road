@@ -1,10 +1,31 @@
+#include <map>
 #include <cstdio>  
 #include <string>  
 #include <cstring>  
 #include <iostream>  
 #include <algorithm>  
-  
+using namespace std;  
+map <string,int> mii;
+map <string,int>::iterator it;
+int main()
+{
+	int ans = 0 ;
+	string s; cin>>s;
+	for(int i=0;i<s.length();i++)
+		for(int j=i+1;j<=s.length();j++)
+		{
+			string cur = s.substr(i,j-i);
+			//cout<<cur<<endl;
+			mii[cur]++;	
+			if (mii[cur]>=2) ans = cur.length()>ans ? cur.length():ans;
+		}
+	cout<<ans<<endl;
+	return 0;
+}
+
+
 /************************************************* 
+上述做法 Updated@2016/01/18 ,原STL-strstr做法 如下 
 strstr 
 原型：const char * strstr ( const char * str1, cosnt char *str2); 
             char * strstr ( char * str1, const char * str2); 
@@ -12,15 +33,12 @@ strstr
         str2，要查找的字符串指针。 
 说明： 在str1中查找匹配str2的子串，并返回指向首次匹配时的第一个元素指针。 
         如果没有找到，返回NULL指针。 
-***************************************************/  
+**************************************************
   
-  
-using namespace std;  
 int main()  
 {  
     //freopen("in.txt","r",stdin);  
-    char line[101];  
-    char find[100];  
+    char line[101], find[100];  
     scanf("%s",line);  
     int len=strlen(line);  
     for(int l=len-1;l>0;l--)  
@@ -39,3 +57,4 @@ int main()
     printf("0");  
     return 0;  
 }  
+***************************************************/
